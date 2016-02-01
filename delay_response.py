@@ -2,7 +2,7 @@ import time
 
 def start(context, argv):
     if len(argv) != 4:
-        raise ValueError('Usage: mitmproxy|mitmdump -s "delay_response.py GET /v1/lists 10"')
+        raise ValueError('Usage: mitmproxy|mitmdump -s "delay_response.py GET /v1/something 10"')
     context.method = argv[1]
     context.api = argv[2]
     context.delay = int(argv[3])

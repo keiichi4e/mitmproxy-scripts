@@ -6,6 +6,6 @@ Scripts for [mitmproxy/mitmdump](https://mitmproxy.org/)
 
 ```sh
 # mitmploxy|mitmdump -s "delay_response.py METHOD PATH SECONDS"
-$ mitmproxy -s "delay_response.py GET /v1/lists 10"
-$ mitmdump -s "delay_response.py GET /v1/lists 10"
+$ mitmproxy -s "delay_response.py GET /v1/something 10"
+$ mitmdump -s "delay_response.py GET /v1/something 10"
 ```
