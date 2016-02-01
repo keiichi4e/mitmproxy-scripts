@@ -1,6 +1,6 @@
 # mitmproxy-scripts
 
-Scripts for [mitmproxy/mitmdump](https://mitmproxy.org/)
+Inline scripts for [mitmproxy/mitmdump](https://mitmproxy.org/)
 
 ## Delaying response
 
